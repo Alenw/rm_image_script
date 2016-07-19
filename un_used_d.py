@@ -10,7 +10,7 @@ images = glob.glob('%s/Assets.xcassets/*.imageset' % (path))
 def find_un_used():
     img_names = [os.path.basename(pic)[:-9] for pic in images]
     unused_imgs = []
-    print len(images)
+    
     for i in range(0, len(images)):
         pic_name = img_names[i]
         if is_ignore(pic_name):
@@ -18,6 +18,7 @@ def find_un_used():
 
         #read .m image like --> [UIImage imageNamed:@"xxxx"]
         command = 'ag "@\\"%s\\"" %s' % (pic_name, path)
+        # print '%s' % 'ag "@\\"%s\\"" %s' % (pic_name, path)
         result = os.popen(command).read()
         # print 'result =%s ' % (result)
         #read xib image like --> image="xxx"

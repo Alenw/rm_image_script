@@ -8,3 +8,6 @@ A python script to delete unused images for iOS developer;
 ![](https://github.com/Alenw/rm_image_script/blob/master/png2.png)
 #####第三步，执行python脚本；</br>
 ![](https://github.com/Alenw/rm_image_script/blob/master/png3.png)
+
+</br>
+![](https://github.com/Alenw/rm_image_script/blob/master/share.gif)
