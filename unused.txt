@@ -1,0 +1,3 @@
+/Users/yelin/Desktop/rm_image_script/Test_rm_image_demo/Test_rm_image_demo/Assets.xcassets/icon_book.imageset
+/Users/yelin/Desktop/rm_image_script/Test_rm_image_demo/Test_rm_image_demo/Assets.xcassets/icon_cam.imageset
+/Users/yelin/Desktop/rm_image_script/Test_rm_image_demo/Test_rm_image_demo/Assets.xcassets/icon_detail.imageset
