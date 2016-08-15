@@ -2,15 +2,20 @@ import glob
 import os
 import re
 
-path = '/Users/yelin/Desktop/rm_image_script/Test_rm_image_demo/Test_rm_image_demo'
+path = './Test_rm_image_demo'
 
 ignores = {r'image_\d+'}
-images = glob.glob('%s/Assets.xcassets/*.imageset' % (path))
+images = '%s/Images.xcassets' % (path)
+if os.path.exists(images):
+    images = glob.glob('%s/Images.xcassets/*.imageset' % (path)) 
+else:
+    images = glob.glob('%s/Assets.xcassets/*.imageset' % (path))
+# images = glob.glob('%s/Images.xcassets/*.imageset' % (path))
 
 def find_un_used():
     img_names = [os.path.basename(pic)[:-9] for pic in images]
     unused_imgs = []
-    
+
     for i in range(0, len(images)):
         pic_name = img_names[i]
         if is_ignore(pic_name):

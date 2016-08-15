@@ -1,0 +1,9 @@
+./Test_rm_image_demo/Assets.xcassets/btn_arrow_right.imageset
+./Test_rm_image_demo/Assets.xcassets/btn_train.imageset
+./Test_rm_image_demo/Assets.xcassets/btn_vision.imageset
+./Test_rm_image_demo/Assets.xcassets/icon_Camera.imageset
+./Test_rm_image_demo/Assets.xcassets/user_Error.imageset
+./Test_rm_image_demo/Assets.xcassets/user_Statistics.imageset
+./Test_rm_image_demo/Assets.xcassets/user_about.imageset
+./Test_rm_image_demo/Assets.xcassets/user_albums.imageset
+./Test_rm_image_demo/Assets.xcassets/user_set.imageset
