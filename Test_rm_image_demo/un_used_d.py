@@ -35,8 +35,8 @@ def find_un_used():
         
         if result == '':
             unused_imgs.append(images[i])
-            print 'remove %s' % (images[i])
-            os.system('rm -rf %s' % (images[i]))
+            print 'move %s' % (images[i])
+            os.system('mv -f %s unusedImage' % (images[i]))
 
 
     text_path = 'unused.txt'
